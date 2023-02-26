@@ -5,6 +5,7 @@
 }
 $navbar:#4a7017;
 $body:#A1683A;
+$boton:#1E152A;
 
 
 body{
@@ -23,10 +24,19 @@ background-color:$navbar;
     }
 }
 .Contenedor{
+    margin-top: 10px;
     height: 250px;
     width: 100%;
-    img{
-        height: 250px;
-        width: 100%;
-    }
-}
+        img{
+            height: 250px;
+            width: 100%;
+            }
+        .boton{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $boton;
+            text-decoration: none;
+            border:$navbar solid 2px;
+            transition: all 1.5s ease;
+            font-size: 18px;}}

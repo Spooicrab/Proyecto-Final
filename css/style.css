@@ -16,8 +16,18 @@ body {
     width: 100%; }
 
 .Contenedor {
+  margin-top: 10px;
   height: 250px;
   width: 100%; }
   .Contenedor img {
     height: 250px;
     width: 100%; }
+  .Contenedor .boton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1E152A;
+    text-decoration: none;
+    border: #4a7017 solid 2px;
+    transition: all 1.5s ease;
+    font-size: 18px; }
