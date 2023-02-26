@@ -3,3 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+$navbar:#4a7017;
+$body:#A1683A;
+
+
+body{
+    background-color: #A1683A;
+}
+.nav__{
+background-color:$navbar;
+
+
+}
+.Titulo__{
+    height: 300px;
+    img{
+        height: 300px;
+        width: 100%;
+    }
+}
+.Contenedor{
+    height: 250px;
+    width: 100%;
+    img{
+        height: 250px;
+        width: 100%;
+    }
+}
