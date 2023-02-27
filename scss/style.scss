@@ -8,6 +8,10 @@ $body:#A1683A;
 $boton:#1E152A;
 $section:#E2C044;
 
+@mixin Tamaño ($width, $height) {
+  height: $width;
+  width: $height;
+}
 
 body{
     background-color: $body;
@@ -41,3 +45,37 @@ background-color:$navbar;
             border:$navbar solid 2px;
             transition: all 1.5s ease;
             font-size: 18px;}}
+
+            footer {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;
+                padding: 20px;
+                background-color: #333;
+                color: #fff;
+                margin-top: 10vh;
+                
+                .redes {
+                  ul {
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+                    display: flex;
+                    flex-wrap: wrap;
+                    
+                    li {
+                      margin-right: 10px;
+                      
+                      a {
+                        color: #fff;
+                        text-decoration: none;
+                      }
+                    }
+                  }
+                }
+                
+                .copyright {
+                  font-size: 14px;
+                }}
+              
