@@ -8,74 +8,72 @@ $body:#A1683A;
 $boton:#1E152A;
 $section:#E2C044;
 
-@mixin Tamaño ($width, $height) {
-  height: $width;
-  width: $height;
-}
+@mixin Tamaño ($width, $height) {  
+  width: $width;
+  height: $height;}
 
+@mixin Centro{text-align: center};
 body{
     background-color: $body;
+}
+@mixin Contenido{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  h2{@include Centro;}
+  p{@include Centro;
+  font-family: 'Noto Sans', sans-serif;}
 }
 .nav__{
 background-color:$navbar;
 }
 .Titulo__{
-    height: 300px;
+    @include Tamaño(100%,350px);
     img{
-        height: 300px;
-        width: 100%;
-    }
-}
+        @include Tamaño(100%,350px);
+      }}
 .Contenedor{
     margin-top: 10px;
-    height: 250px;
-    width: 100%;
+    @include Tamaño(100%,250px);
     align-content: center;
     background-color: $section;
-        img{
-            height: 250px;
-            width: 100%;
-            }
-        .boton{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: $boton;
-            text-decoration: none;
-            border:$navbar solid 2px;
-            transition: all 1.5s ease;
-            font-size: 18px;}}
+      img{
+          @include Tamaño(100%,250px);}
+      .boton{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $boton;
+        text-decoration: none;
+        border:$navbar solid 2px;
+        transition: all 1.5s ease;
+        font-size: 18px;}}
 
-            footer {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                align-items: center;
-                padding: 20px;
-                background-color: #333;
-                color: #fff;
-                margin-top: 10vh;
-                
-                .redes {
-                  ul {
-                    list-style: none;
-                    margin: 0;
-                    padding: 0;
-                    display: flex;
-                    flex-wrap: wrap;
-                    
-                    li {
-                      margin-right: 10px;
-                      
-                      a {
-                        color: #fff;
-                        text-decoration: none;
-                      }
-                    }
-                  }
-                }
-                
-                .copyright {
-                  font-size: 14px;
-                }}
+.Camping{@include Contenido}
+.Hospedaje{@include Contenido}
+.Cantina{@include Contenido}
+.Ubicación{@include Contenido}
+
+footer {display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+       align-items: center;
+       padding: 20px;
+       background-color: #333;
+       color: #fff;
+       margin-top: 10vh;         
+        .redes {
+          ul {
+              list-style: none;
+              margin: 0;
+              padding: 0;
+              display: flex;
+              flex-wrap: wrap;
+              li {
+                 margin-right: 10px;
+                    a {
+                      color: #fff;
+                      text-decoration: none;}}}}
+        .copyright {
+                  font-size: 14px;}}
               

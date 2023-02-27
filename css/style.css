@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -10,20 +11,21 @@ body {
   background-color: #4a7017; }
 
 .Titulo__ {
-  height: 300px; }
+  width: 100%;
+  height: 350px; }
   .Titulo__ img {
-    height: 300px;
-    width: 100%; }
+    width: 100%;
+    height: 350px; }
 
 .Contenedor {
   margin-top: 10px;
-  height: 250px;
   width: 100%;
+  height: 250px;
   align-content: center;
   background-color: #E2C044; }
   .Contenedor img {
-    height: 250px;
-    width: 100%; }
+    width: 100%;
+    height: 250px; }
   .Contenedor .boton {
     display: flex;
     align-items: center;
@@ -33,6 +35,46 @@ body {
     border: #4a7017 solid 2px;
     transition: all 1.5s ease;
     font-size: 18px; }
+
+.Camping {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .Camping h2 {
+    text-align: center; }
+  .Camping p {
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif; }
+
+.Hospedaje {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .Hospedaje h2 {
+    text-align: center; }
+  .Hospedaje p {
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif; }
+
+.Cantina {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .Cantina h2 {
+    text-align: center; }
+  .Cantina p {
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif; }
+
+.Ubicación {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .Ubicación h2 {
+    text-align: center; }
+  .Ubicación p {
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif; }
 
 footer {
   display: flex;
