@@ -18,7 +18,9 @@ body {
 .Contenedor {
   margin-top: 10px;
   height: 250px;
-  width: 100%; }
+  width: 100%;
+  align-content: center;
+  background-color: #E2C044; }
   .Contenedor img {
     height: 250px;
     width: 100%; }

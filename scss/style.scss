@@ -6,15 +6,14 @@
 $navbar:#4a7017;
 $body:#A1683A;
 $boton:#1E152A;
+$section:#E2C044;
 
 
 body{
-    background-color: #A1683A;
+    background-color: $body;
 }
 .nav__{
 background-color:$navbar;
-
-
 }
 .Titulo__{
     height: 300px;
@@ -27,6 +26,8 @@ background-color:$navbar;
     margin-top: 10px;
     height: 250px;
     width: 100%;
+    align-content: center;
+    background-color: $section;
         img{
             height: 250px;
             width: 100%;
