@@ -54,6 +54,10 @@ background-color:$navbar;
 .Cantina{@include Contenido}
 .Ubicación{@include Contenido}
 
+.carousel__{
+  @include Tamaño(100%,500px)
+}
+
 footer {display: flex;
        flex-wrap: wrap;
        justify-content: space-between;
