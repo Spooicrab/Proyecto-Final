@@ -78,7 +78,15 @@ body {
 
 .carousel__ {
   width: 100%;
-  height: 500px; }
+  height: 500px;
+  padding: 15px; }
+
+.Camping__ div {
+  width: 100%;
+  height: 450px; }
+  .Camping__ div img {
+    width: 100%;
+    height: 450px; }
 
 footer {
   display: flex;

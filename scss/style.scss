@@ -55,8 +55,20 @@ background-color:$navbar;
 .Ubicación{@include Contenido}
 
 .carousel__{
-  @include Tamaño(100%,500px)
+  @include Tamaño(100%,500px);
+  padding: 15px;
 }
+
+.Camping__{
+  div{
+    @include Tamaño(100%,450px);
+    img{
+      @include Tamaño(100%,450px);
+    }
+
+  }
+}
+
 
 footer {display: flex;
        flex-wrap: wrap;
