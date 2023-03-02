@@ -41,7 +41,8 @@ body {
   flex-direction: column;
   justify-content: center; }
   .Camping h2 {
-    text-align: center; }
+    text-align: center;
+    font-family: 'Phudu', cursive; }
   .Camping p {
     text-align: center;
     font-family: 'Noto Sans', sans-serif; }
@@ -51,7 +52,8 @@ body {
   flex-direction: column;
   justify-content: center; }
   .Hospedaje h2 {
-    text-align: center; }
+    text-align: center;
+    font-family: 'Phudu', cursive; }
   .Hospedaje p {
     text-align: center;
     font-family: 'Noto Sans', sans-serif; }
@@ -61,7 +63,8 @@ body {
   flex-direction: column;
   justify-content: center; }
   .Cantina h2 {
-    text-align: center; }
+    text-align: center;
+    font-family: 'Phudu', cursive; }
   .Cantina p {
     text-align: center;
     font-family: 'Noto Sans', sans-serif; }
@@ -71,15 +74,19 @@ body {
   flex-direction: column;
   justify-content: center; }
   .Ubicación h2 {
-    text-align: center; }
+    text-align: center;
+    font-family: 'Phudu', cursive; }
   .Ubicación p {
     text-align: center;
     font-family: 'Noto Sans', sans-serif; }
 
 .carousel__ {
   width: 100%;
-  height: 500px;
+  height: 400px;
   padding: 15px; }
+  .carousel__ img {
+    width: 100%;
+    height: 100%; }
 
 .Camping__ div {
   width: 100%;
@@ -87,6 +94,22 @@ body {
   .Camping__ div img {
     width: 100%;
     height: 450px; }
+
+.Contenedor__Camping {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .Contenedor__Camping img {
+    width: 100%;
+    height: 100%; }
+  .Contenedor__Camping h2 {
+    text-align: center;
+    font-family: 'Phudu', cursive; }
+  .Contenedor__Camping p {
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif; }
 
 footer {
   display: flex;

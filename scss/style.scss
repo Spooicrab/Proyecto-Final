@@ -20,7 +20,8 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  h2{@include Centro;}
+  h2{@include Centro;
+    font-family: 'Phudu', cursive;}
   p{@include Centro;
   font-family: 'Noto Sans', sans-serif;}
 }
@@ -55,8 +56,11 @@ background-color:$navbar;
 .Ubicación{@include Contenido}
 
 .carousel__{
-  @include Tamaño(100%,500px);
+  @include Tamaño(100%,400px);
   padding: 15px;
+  img{
+    @include Tamaño(100%,100%);
+  }
 }
 
 .Camping__{
@@ -64,10 +68,14 @@ background-color:$navbar;
     @include Tamaño(100%,450px);
     img{
       @include Tamaño(100%,450px);
-    }
+    }}}
 
-  }
-}
+  .Contenedor__Camping{
+    @include Tamaño(100%,300px);
+    img{
+      @include Tamaño(100%,100% )
+    }
+    @include Contenido}
 
 
 footer {display: flex;
