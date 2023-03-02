@@ -101,9 +101,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center; }
-  .Contenedor__Camping img {
+  .Contenedor__Camping div img {
     width: 100%;
-    height: 100%; }
+    height: 300px; }
   .Contenedor__Camping h2 {
     text-align: center;
     font-family: 'Phudu', cursive; }

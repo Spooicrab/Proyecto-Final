@@ -60,8 +60,7 @@ background-color:$navbar;
   padding: 15px;
   img{
     @include Tamaño(100%,100%);
-  }
-}
+  }}
 
 .Camping__{
   div{
@@ -72,9 +71,10 @@ background-color:$navbar;
 
   .Contenedor__Camping{
     @include Tamaño(100%,300px);
+    div{
     img{
-      @include Tamaño(100%,100% )
-    }
+      @include Tamaño(100%,300px);
+    }}
     @include Contenido}
 
 
