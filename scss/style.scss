@@ -78,8 +78,11 @@ background-color:$navbar;
     @include Contenido}
 
     .Hospedajes{
+      margin-bottom: 50px;
       h2{font-family: 'Phudu', cursive;}
-      div{div{img{@include Tamaño(200px,200px);}}}
+      div{
+        justify-items: center;
+        div{img{@include Tamaño(200px,200px);}}}
     }
 
 
