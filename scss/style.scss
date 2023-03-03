@@ -77,6 +77,11 @@ background-color:$navbar;
     }}
     @include Contenido}
 
+    .Hospedajes{
+      h2{font-family: 'Phudu', cursive;}
+      div{div{img{@include Tamaño(200px,200px);}}}
+    }
+
 
 footer {display: flex;
        flex-wrap: wrap;

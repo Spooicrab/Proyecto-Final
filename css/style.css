@@ -111,6 +111,13 @@ body {
     text-align: center;
     font-family: 'Noto Sans', sans-serif; }
 
+.Hospedajes h2 {
+  font-family: 'Phudu', cursive; }
+
+.Hospedajes div div img {
+  width: 200px;
+  height: 200px; }
+
 footer {
   display: flex;
   flex-wrap: wrap;
