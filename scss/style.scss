@@ -25,9 +25,16 @@ body{
   p{@include Centro;
   font-family: 'Noto Sans', sans-serif;}
 }
-.nav__{
+@mixin Section_{@include Tamaño(100%,300px);
+    div{
+    img{
+      @include Tamaño(100%,300px);
+    }}
+    @include Contenido}
+.Nav__{
 background-color:$navbar;
-}
+a{img{
+  @include Tamaño(50px,100%);}}}
 .Titulo__{
     @include Tamaño(100%,350px);
     img{
@@ -85,6 +92,15 @@ background-color:$navbar;
         div{img{@include Tamaño(200px,200px);}}}
     }
 
+    .Contenedor__Hospedajes{
+      margin-bottom: 50px;
+      @include Tamaño(100%,400px);
+    div{
+    img{
+      @include Tamaño(100%,400px);
+    }}
+    @include Contenido
+    }
 
 footer {display: flex;
        flex-wrap: wrap;
