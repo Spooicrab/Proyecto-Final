@@ -104,6 +104,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center; }
+  .Contenedor__Camping .Camping__text h2 {
+    padding-top: 30px; }
   .Contenedor__Camping div img {
     width: 100%;
     height: 300px; }
@@ -140,6 +142,37 @@ body {
   .Contenedor__Hospedajes p {
     text-align: center;
     font-family: 'Noto Sans', sans-serif; }
+
+.contacto {
+  padding-left: 50px;
+  border: #4a7017 solid 5px;
+  margin-top: 50px; }
+  .contacto .contacto__container {
+    height: auto; }
+  .contacto .contacto__icon {
+    width: 20%; }
+
+.Cantina__ {
+  margin-top: 80px;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .Cantina__ img {
+    width: 65%;
+    height: 500px;
+    display: block; }
+  .Cantina__ h2 {
+    padding: 1rem;
+    margin-top: 30px;
+    display: block; }
+
+.Cantina__Menu {
+  margin-top: 50px; }
+  .Cantina__Menu h1 {
+    text-align: center; }
 
 footer {
   display: flex;
