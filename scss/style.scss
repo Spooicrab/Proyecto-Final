@@ -40,22 +40,46 @@ a{img{
     img{
         @include Tamaño(100%,350px);
       }}
+
+  
 .Contenedor{
+  .row{
     margin-top: 10px;
-    @include Tamaño(100%,250px);
+    @include Tamaño(100%,350px);
+    background-color: $section;
+    img{
+      @include Tamaño(100%,100%);}
+  }
+  .boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $boton;
+    text-decoration: none;
+    border:$navbar solid 2px;
+    transition: all 1.5s ease;
+    font-size: 18px;}
+}
+  /*
+    
+    @include Tamaño(100%,350px);
     align-content: center;
     background-color: $section;
+    .row{
+      height: 350px;
       img{
-          @include Tamaño(100%,250px);}
-      .boton{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: $boton;
-        text-decoration: none;
-        border:$navbar solid 2px;
-        transition: all 1.5s ease;
-        font-size: 18px;}}
+        @include Tamaño(100%,100%);}
+    }
+      
+    .boton{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: $boton;
+      text-decoration: none;
+      border:$navbar solid 2px;
+      transition: all 1.5s ease;
+      font-size: 18px;}*/
 
 .Camping{@include Contenido}
 .Hospedaje{@include Contenido}
