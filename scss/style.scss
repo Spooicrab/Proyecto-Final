@@ -45,7 +45,7 @@ a{img{
 .Contenedor{
   .row{
     margin-top: 10px;
-    @include Tamaño(100%,350px);
+    @include Tamaño(100%,100%);
     background-color: $section;
     img{
       @include Tamaño(100%,100%);}
