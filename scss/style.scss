@@ -39,11 +39,8 @@ a{img{
     @include Tamaño(100%,350px);
     img{
         @include Tamaño(100%,350px);
-      }}
-
-  
+      }}  
 .Contenedor{
-
   .row{
     margin-top: 10px;
     @include Tamaño(100%,100%);
@@ -129,7 +126,6 @@ a{img{
         height: auto;}
       .contacto__icon{
         width: 20%;}}
-
   .Cantina__{
     margin-top: 80px;
     @include Tamaño(100%,500px);
@@ -147,6 +143,9 @@ a{img{
   .Cantina__Menu{
     margin-top: 50px;
     h1{text-align: center;}
+  }
+  .Menu__{
+    margin-bottom: 30px;
   }
 footer {display: flex;
        flex-wrap: wrap;

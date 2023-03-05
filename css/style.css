@@ -182,6 +182,9 @@ body {
   .Cantina__Menu h1 {
     text-align: center; }
 
+.Menu__ {
+  margin-bottom: 30px; }
+
 footer {
   display: flex;
   flex-wrap: wrap;
