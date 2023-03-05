@@ -43,6 +43,7 @@ a{img{
 
   
 .Contenedor{
+
   .row{
     margin-top: 10px;
     @include Tamaño(100%,100%);
@@ -59,6 +60,10 @@ a{img{
     border:$navbar solid 2px;
     transition: all 1.5s ease;
     font-size: 18px;}
+    .camping__img{ 
+      height: 350px;
+      img{@include Tamaño(100%,100%)}
+    }
 }
   /*
     
@@ -99,18 +104,6 @@ a{img{
     img{
       @include Tamaño(100%,450px);
     }}}
-
-  .Contenedor__Camping{
-    @include Tamaño(100%,300px);
-    .Camping__text{
-    h2{padding-top: 30px;}
-    }
-    div{
-    img{
-      @include Tamaño(100%,300px);
-    }}
-    @include Contenido}
-
     .Hospedajes{
       margin-bottom: 50px;
       h2{font-family: 'Phudu', cursive;}

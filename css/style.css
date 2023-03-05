@@ -39,6 +39,12 @@ body {
   transition: all 1.5s ease;
   font-size: 18px; }
 
+.Contenedor .camping__img {
+  height: 350px; }
+  .Contenedor .camping__img img {
+    width: 100%;
+    height: 100%; }
+
 /*
     
     @include Tamaño(100%,350px);
@@ -117,24 +123,6 @@ body {
   .Camping__ div img {
     width: 100%;
     height: 450px; }
-
-.Contenedor__Camping {
-  width: 100%;
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; }
-  .Contenedor__Camping .Camping__text h2 {
-    padding-top: 30px; }
-  .Contenedor__Camping div img {
-    width: 100%;
-    height: 300px; }
-  .Contenedor__Camping h2 {
-    text-align: center;
-    font-family: 'Phudu', cursive; }
-  .Contenedor__Camping p {
-    text-align: center;
-    font-family: 'Noto Sans', sans-serif; }
 
 .Hospedajes {
   margin-bottom: 50px; }
