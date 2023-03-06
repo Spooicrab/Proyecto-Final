@@ -41,7 +41,7 @@ a{img{
     h1{
       position: absolute;
       left: 45%;
-      font-family: 'Sriracha', cursive;
+      font-family: 'Shrikhand', cursive;
       }
     img{
         @include Tamaño(100%,100%);
@@ -63,36 +63,24 @@ a{img{
     border:$navbar solid 2px;
     transition: all 1.5s ease;
     font-size: 18px;}
-    .camping__img{ 
+    .div_img{ 
       height: 350px;
       img{@include Tamaño(100%,100%)}
     }
 }
-  /*
-    
-    @include Tamaño(100%,350px);
-    align-content: center;
-    background-color: $section;
-    .row{
-      height: 350px;
-      img{
-        @include Tamaño(100%,100%);}
-    }
-      
-    .boton{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: $boton;
-      text-decoration: none;
-      border:$navbar solid 2px;
-      transition: all 1.5s ease;
-      font-size: 18px;}*/
 
 .Camping{@include Contenido}
 .Hospedaje{@include Contenido}
 .Cantina{@include Contenido}
 .Ubicación{@include Contenido}
+.Capacidad{@include Contenido}
+.Baños{@include Contenido}
+.Sombra{@include Contenido}
+.Asadores{@include Contenido}
+.Hsimple{@include Contenido}
+.HMchica{@include Contenido}
+.HMgrande{@include Contenido}
+.HMdoble{@include Contenido}
 
 .carousel__{
   @include Tamaño(100%,400px);

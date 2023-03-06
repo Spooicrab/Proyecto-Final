@@ -19,7 +19,7 @@ body {
   .Titulo__ h1 {
     position: absolute;
     left: 45%;
-    font-family: 'Sriracha', cursive; }
+    font-family: 'Shrikhand', cursive; }
   .Titulo__ img {
     width: 100%;
     height: 100%; }
@@ -43,32 +43,12 @@ body {
   transition: all 1.5s ease;
   font-size: 18px; }
 
-.Contenedor .camping__img {
+.Contenedor .div_img {
   height: 350px; }
-  .Contenedor .camping__img img {
+  .Contenedor .div_img img {
     width: 100%;
     height: 100%; }
 
-/*
-    
-    @include Tamaño(100%,350px);
-    align-content: center;
-    background-color: $section;
-    .row{
-      height: 350px;
-      img{
-        @include Tamaño(100%,100%);}
-    }
-      
-    .boton{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: $boton;
-      text-decoration: none;
-      border:$navbar solid 2px;
-      transition: all 1.5s ease;
-      font-size: 18px;}*/
 .Camping {
   display: flex;
   flex-direction: column;
@@ -110,6 +90,94 @@ body {
     text-align: center;
     font-family: 'Phudu', cursive; }
   .Ubicación p {
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif; }
+
+.Capacidad {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .Capacidad h2 {
+    text-align: center;
+    font-family: 'Phudu', cursive; }
+  .Capacidad p {
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif; }
+
+.Baños {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .Baños h2 {
+    text-align: center;
+    font-family: 'Phudu', cursive; }
+  .Baños p {
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif; }
+
+.Sombra {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .Sombra h2 {
+    text-align: center;
+    font-family: 'Phudu', cursive; }
+  .Sombra p {
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif; }
+
+.Asadores {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .Asadores h2 {
+    text-align: center;
+    font-family: 'Phudu', cursive; }
+  .Asadores p {
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif; }
+
+.Hsimple {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .Hsimple h2 {
+    text-align: center;
+    font-family: 'Phudu', cursive; }
+  .Hsimple p {
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif; }
+
+.HMchica {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .HMchica h2 {
+    text-align: center;
+    font-family: 'Phudu', cursive; }
+  .HMchica p {
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif; }
+
+.HMgrande {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .HMgrande h2 {
+    text-align: center;
+    font-family: 'Phudu', cursive; }
+  .HMgrande p {
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif; }
+
+.HMdoble {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .HMdoble h2 {
+    text-align: center;
+    font-family: 'Phudu', cursive; }
+  .HMdoble p {
     text-align: center;
     font-family: 'Noto Sans', sans-serif; }
 
