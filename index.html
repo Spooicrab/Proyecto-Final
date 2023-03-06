@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
@@ -58,12 +63,13 @@
 
 
 <section class="Titulo__ container-fluid">
-<img src="./assets/Index/Title.jpeg" alt="">
+  <h1> Turismo Amaicha</h1>
+<img src="./assets/Index/titulo 2.webp" alt="">
 </section>
 
 <section class="Contenedor container-fluid row">
-  <div class="row container-fluid">
-    <div class="col-md-8">
+  <div class="row wow animate__fadeInLeft">
+  <div class="col-md-8">
       <img src="./assets/Index/Index__camping.jpg" alt="Camping" class="border border-success-subtle">
   </div>  
     <div class="col-md-4 Camping container">
@@ -72,7 +78,7 @@
       <a class="boton" href="./pages/Camping.html">Ver más</a>
   </div>
   </div>
-  <div class="row">
+  <div class="row wow animate__fadeInLeft">
     <div class="col-md-8">
       <img src="./assets/Index/Index__hospedaje.jpg" alt="Hospedaje" class="border border-success-subtle">
 
@@ -83,7 +89,7 @@
       <a class="boton" href="./pages/Hospedaje.html">Ver más</a>
   </div>
   </div>
-  <div class="row">
+  <div class="row wow animate__fadeInLeft">
     <div class="col-md-8">
       <img src="./assets/Index/Index__cantina.jpg" alt="Cantina" class="border border-success-subtle">
   </div>  
@@ -93,9 +99,7 @@
       <a class="boton" href="./pages/Cantina.html">Ver más</a>
   </div>
   </div>
-
-
-  <div class="row">
+  <div class="row wow animate__fadeInLeft">
     <div class="col-md-8">
       <img src="./assets/Index/Index__ubicación.jpg" alt="Ubicación" class="border border-success-subtle">
   </div>
@@ -121,7 +125,10 @@
   <div class="configuracion"></div>
 </footer>
 
-
+<script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>

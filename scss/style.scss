@@ -13,9 +13,10 @@ $section:#E2C044;
   height: $height;}
 
 @mixin Centro{text-align: center};
-body{
-    background-color: $body;
+body {
+  background-color: $body;
 }
+
 @mixin Contenido{
   display: flex;
   flex-direction: column;
@@ -36,9 +37,14 @@ background-color:$navbar;
 a{img{
   @include Tamaño(50px,100%);}}}
 .Titulo__{
-    @include Tamaño(100%,350px);
+    @include Tamaño(100%,450px);
+    h1{
+      position: absolute;
+      left: 45%;
+      font-family: 'Sriracha', cursive;
+      }
     img{
-        @include Tamaño(100%,350px);
+        @include Tamaño(100%,100%);
       }}  
 .Contenedor{
   .row{
@@ -128,6 +134,7 @@ a{img{
         width: 20%;}}
   .Cantina__{
     margin-top: 80px;
+    margin-bottom: 40px;
     @include Tamaño(100%,500px);
     display: flex;
     flex-direction: column;
