@@ -142,26 +142,19 @@ a{img{
   .Menu__{
     margin-bottom: 30px;
   }
-footer {display: flex;
-       flex-wrap: wrap;
-       justify-content: space-between;
-       align-items: center;
-       padding: 20px;
-       background-color: #333;
-       color: #fff;
-       margin-top: 10vh;         
-        .redes {
-          ul {
-              list-style: none;
-              margin: 0;
-              padding: 0;
-              display: flex;
-              flex-wrap: wrap;
-              li {
-                 margin-right: 10px;
-                    a {
-                      color: #fff;
-                      text-decoration: none;}}}}
-        .copyright {
-                  font-size: 14px;}}
-              
+
+footer{
+  background-color: $boton;
+  margin-top: 10vh;
+  display: flex;
+  .redes{
+    h3{color: $section;
+    display: block}
+    img{
+      width: 30px;
+    }
+    p{
+      color: $section;
+    }
+  }
+}
