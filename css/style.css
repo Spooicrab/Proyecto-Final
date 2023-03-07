@@ -4,8 +4,8 @@
   padding: 0;
   box-sizing: border-box; }
 
-body {
-  background-color: #A1683A; }
+.cartas {
+  background-color: #E2C044; }
 
 .Nav__ {
   background-color: #4a7017; }
@@ -224,6 +224,7 @@ body {
     font-family: 'Noto Sans', sans-serif; }
 
 .contacto {
+  background-color: #E2C044;
   padding-left: 50px;
   border: #4a7017 solid 5px;
   margin-top: 50px; }
@@ -233,6 +234,7 @@ body {
     width: 20%; }
 
 .Cantina__ {
+  background-color: #E2C044;
   margin-top: 80px;
   margin-bottom: 40px;
   width: 100%;
@@ -256,6 +258,7 @@ body {
     text-align: center; }
 
 .Menu__ {
+  background-color: #643f21;
   margin-bottom: 30px; }
 
 footer {
